@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imagenes</title>
+    <link rel="stylesheet" href="./CSS/carrusel.css">
+</head>
+<body>
+    <nav >
+        <ul>
+            <li><a href="historia.html">INICIO</a></li>
+            <li><a href="./reloj.html">RELOJ</a></li>
+            <li><a href="./carrusel.html">CARRUSEL DE IMAGENES</a></li>
+            <li><a href="./juego.html">JUEGO DE MEMORIA</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="mySlides">
+            <img src="image/descarga (1).jpg" alt="imagen-1">
+        </div>
+        <div class="mySlides">
+            <img src="image/css_blog.png" alt="">
+        </div>
+        <div class="mySlides">
+            <img src="image/descarga (2).jpg" alt="">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="elements">
+            <span class="quadrate" onclick="currentSlide(1)"></span>
+            <span class="quadrate" onclick="currentSlide(2)"></span>
+            <span class="quadrate" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <script src="./js/carrusel1.js"></script>
+    <footer style="background-color:rgb(236, 0, 12); width: 100%; height: 20%; color: rgb(48, 241, 0); text-align: right"> 
+        <p style="text-align:center ;">PAGINA CREADA POR ADRIANO NAVARRO VASQUEZ </p>
+        <p style="text-align:center ;">DERECHOS RESERVADOS </p>
+</footer>
+</body>
